@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="120dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="13dp">
+
+
+        <ImageView
+            android:id="@+id/left_icon"
+            android:layout_width="79dp"
+            android:layout_height="59dp"
+            android:src="@drawable/logo7" />
+        <!--            android:src="@drawable/ic_baseline_arrow_back_24" -->
+
+        <TextView
+            android:id="@+id/toolbar_title2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/left_icon"
+            android:text="ग्रामस्वराज"
+            android:textColor="#4d4d4d"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/right_icon"
+            android:layout_width="30dp"
+            android:layout_height="55dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="13dp"
+            android:src="@drawable/ic_baseline_menu_24" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="398dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:background="#98c1d9"
+            android:padding="10dp"
+            android:text="ग्रामपंचायत वेबसाइट तयार करण्यासाठी सामील व्हा!!"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
